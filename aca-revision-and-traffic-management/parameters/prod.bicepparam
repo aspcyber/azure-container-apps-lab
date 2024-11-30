@@ -2,7 +2,7 @@ using '../main.bicep'
 
 param acaResourceGroupName = 'rg-aca-helloworld-neu-${environment}'
 param environment = 'prod'
-param location = 'northeurope'
+param location = 'Central India'
 
 param tags = {
   application: 'aca-revision-traffic-mgmt'
