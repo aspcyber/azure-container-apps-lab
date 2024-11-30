@@ -68,5 +68,5 @@ module public_apps 'modules/aca-public-apps.bicep' = {
   }
 }
 
-@description('URL for accessing Hello World application')
+@description('URL for accessing Hello World application ')
 output helloWorldUrl string = public_apps.outputs.helloWorldAppUri
